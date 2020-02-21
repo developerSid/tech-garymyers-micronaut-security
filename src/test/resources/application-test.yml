@@ -1,0 +1,14 @@
+---
+micronaut:
+   environment: test
+   http:
+      client:
+         read-timeout: 3600s
+   security.token.jwt.signatures.secret.generator.secret: mashkeyboardnfmxckdygh68r47489frkfhjfyrugjk
+---
+tech:
+   garymyers:
+      security:
+         jwt:
+            pem:
+               path: "classpath:security/local-jwt.pem" #openssl genrsa -out security/local-dev.pem 2048

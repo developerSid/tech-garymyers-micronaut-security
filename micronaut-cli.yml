@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: tech.garymyers.micronaut.security
+---
+testFramework: spock
+sourceLanguage: kotlin
